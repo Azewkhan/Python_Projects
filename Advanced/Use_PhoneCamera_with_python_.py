@@ -1,4 +1,4 @@
-import cv2
+import cv2                           #For this Task You have to download IP webcam
 import numpy as np
 url = "Your IP address/video"   # Here fill Your IP address from your IP webcam app after starting the server from top right corner
 cp = cv2.VideoCapture(url)   # If we type 0 insteadof URL in here It will show laptop webcam 
